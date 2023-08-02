@@ -1,0 +1,40 @@
+*{
+ box-sizing: border-box;
+ padding: 5px 10px;
+ margin: 8px;  
+ font-size: 30px; 
+ text-align: center;
+ font-family: Poppins;
+ border-radius: 5px;
+}    
+
+body {
+    background: linear-gradient(90deg, black, #868585, white, #868585, black);
+}
+
+main{
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: max-content;
+    background-color: rgb(85, 216, 228);
+    box-shadow: 1px 5px 10px black;
+}
+
+h1 {
+    background-color: #868585;
+    text-shadow: 0px 2px 2px rgb(16, 15, 15);
+    width: 100%;
+    margin: 0;
+    color: #fffffff4;
+    border: 1px solid #ffffff2f;
+}
+
+#amountInput,
+select {
+    width: 80%;
+}
